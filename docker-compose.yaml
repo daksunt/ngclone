@@ -1,0 +1,6 @@
+version: '3'
+services:
+  render:
+    image: spring-boot-render:latest
+    ports:
+      - 8080:8080
